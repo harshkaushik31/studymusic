@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin: 1rem;
+    box-shadow: 7px 7px 12px #222;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-1-img{
+    height: 12rem;
+}
+.card-2-img{
+    height: 14rem;
+}
+.card-3-img{
+    height: 14rem;
+}
+.card-4-img{
+    height: 14rem;
+}
+.card-5-img{
+    height: 14rem;
+}
+.card-6-img{
+    height: 14rem;
+}
+.card-7-img{
+    height: 14rem;
+}
+.card-8-img{
+    height: 14rem;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid #222;
+    color: #222;
+}
+.btn:hover{
+    background-color: #222;
+    color: white;
+    border: 2px solid white;
+}
+.play-btn{
+    margin-right: 7rem;
+}
+
+hr{
+    color: #222;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    /* margin-right: 15px; */
+    width: 200px;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-image: linear-gradient(#222, #222);
+    background-size: 70% 100%;
+    background-repeat: repeat;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+    border: 2px solid black;
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
